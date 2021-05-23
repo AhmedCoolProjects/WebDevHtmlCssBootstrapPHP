@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+.my_form {
+  width: 42%;
+  position: relative;
+  padding: 32px;
+  background-color: #dddddd;
+}
+.my_form h2 {
+  margin-bottom: 24px;
+}
+.logo {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.logo img {
+  width: 160px;
+  margin-top: -112px;
+  object-fit: contain;
+}
+.remember_me_div_container {
+  flex: 1;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  padding: 4px;
+  margin-bottom: 24px;
+}
+.register_link {
+  position: absolute;
+  right: 32px;
+  bottom: 32px;
+}
+.passwords_container {
+  flex: 1;
+  padding: 0 2px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+@media screen and (max-width: 800px) {
+  .my_form {
+    width: 80%;
+  }
+}
